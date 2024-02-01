@@ -1,7 +1,7 @@
-![image](https://github.com/RuxinMa/react-project-github-users/assets/140491381/79c50101-07aa-422e-ba97-1a3e69911c60)## Project Review
+## Project Review
 
 ### Technologies
-JavaScript, React, HTML, CSS, Auth0, GitHub API, Fusion Charts
+JavaScript, **React**, HTML, CSS, Auth0, GitHub API, Fusion Charts
 
 ### Description
 Craft a dynamic and responsive site for GitHub user search and data presentation. (including name, image, following and repos data)
