@@ -1,16 +1,15 @@
 ## Project Review
 
 ### Tach Stack
-- Framwork: React
-- Environment: Create React App
-- Build: Netlify
+Technologies: JavaScript, React, HTML, CSS
+
 
 ### Introduce
 Create a website to search github users and display their information (including name, image, following and repos data)
 
 Connect with the third-party platform (email, Google, Linkedln) through **Auth0**, and confirm whether to display the homepage by obtaining the user's login status (authenticated).
 
-Disassemble the project through the components of the page, the user's status, etc., as shown in the figure (project-review.png) ![Review](project-review.png)
+Disassemble the project through the components of the page, the user's status, etc., as shown in the figure ![Review](project-review.png)
 
 ### Testing Case
 
