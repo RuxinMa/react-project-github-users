@@ -7,9 +7,9 @@ Technologies: JavaScript, React, HTML, CSS, Auth0, GitHub API,
 ### Introduce
 Craft a dynamic and responsive site for GitHub user search and data presentation. (including name, image, following and repos data)
 
-•	Implemented Auth0 for secure third-party authentication, seamlessly connecting with GitHub API for data retrieval.
-•	Enhanced user data visualization using Fusion Charts.
-•	Optimized navigation with React Router for a smooth overall user experience.
+- Implemented Auth0 for secure third-party authentication, seamlessly connecting with GitHub API for data retrieval.
+- Enhanced user data visualization using Fusion Charts.
+- Optimized navigation with React Router for a smooth overall user experience.
 ![image](https://github.com/RuxinMa/react-project-github-users/assets/140491381/fb1f8324-ddf3-429b-9a7d-c1dda60b4f3d)
 
 ### Testing Case
