@@ -1,10 +1,9 @@
-## Project Review
+![image](https://github.com/RuxinMa/react-project-github-users/assets/140491381/79c50101-07aa-422e-ba97-1a3e69911c60)## Project Review
 
-### Tach Stack
-Technologies: JavaScript, React, HTML, CSS, Auth0, GitHub API, 
+### Technologies
+JavaScript, React, HTML, CSS, Auth0, GitHub API, Fusion Charts
 
-
-### Introduce
+### Description
 Craft a dynamic and responsive site for GitHub user search and data presentation. (including name, image, following and repos data)
 
 - Implemented Auth0 for secure third-party authentication, seamlessly connecting with GitHub API for data retrieval.
