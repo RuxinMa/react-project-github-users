@@ -1,15 +1,16 @@
 ## Project Review
 
 ### Tach Stack
-Technologies: JavaScript, React, HTML, CSS
+Technologies: JavaScript, React, HTML, CSS, Auth0, GitHub API, 
 
 
 ### Introduce
-Create a website to search github users and display their information (including name, image, following and repos data)
+Craft a dynamic and responsive site for GitHub user search and data presentation. (including name, image, following and repos data)
 
-Connect with the third-party platform (email, Google, Linkedln) through **Auth0**, and confirm whether to display the homepage by obtaining the user's login status (authenticated).
-
-Disassemble the project through the components of the page, the user's status, etc., as shown in the figure ![Review](project-review.png)
+•	Implemented Auth0 for secure third-party authentication, seamlessly connecting with GitHub API for data retrieval.
+•	Enhanced user data visualization using Fusion Charts.
+•	Optimized navigation with React Router for a smooth overall user experience.
+![image](https://github.com/RuxinMa/react-project-github-users/assets/140491381/fb1f8324-ddf3-429b-9a7d-c1dda60b4f3d)
 
 ### Testing Case
 
