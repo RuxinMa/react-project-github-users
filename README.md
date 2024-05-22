@@ -4,32 +4,37 @@
 JavaScript, **React**, HTML, CSS, Auth0, GitHub API, Fusion Charts
 
 ### Description
-Craft a dynamic and responsive site for GitHub user search and data presentation. (including name, image, following and repos data)
+Craft a dynamic and responsive site for GitHub user search and data presentation (including name, image, following and repos data)
 
 - Implemented Auth0 for secure third-party authentication, seamlessly connecting with GitHub API for data retrieval.
 - Enhanced user data visualization using Fusion Charts.
 - Optimized navigation with React Router for a smooth overall user experience.
 ![Review](project-review.png)
 
-### Testing Case
-
-@sarah_edo 
-@john_smilga  
-@cassidoo 
-
-
+### Test Cases (search query)
+```bash
+wizardforcel 
+KyleAMathews
+marcysutton
+sarah_edo
+cassidoo
+john_smilga
+RuxinMa
+```
 
 ## Other Info
 
 ### Gihthub API
+john-smilga is username (login in user api)
 - [Root Endpoint](https://api.github.com)
-- [Get User](https://api.github.com/users/wesbos)
+- [Get User](https://api.github.com/users/john-smilga)
 - [Repos](https://api.github.com/users/john-smilga/repos?per_page=100)
 - [Followers](https://api.github.com/users/john-smilga/followers)
 - [Rate Limit](https://api.github.com/rate_limit)
 
   For unauthenticated requests, the rate limit allows for up to 60 requests per hour. 
   Unauthenticated requests are associated with the originating IP address, and not the user making requests.
+
 
 ### Fusion Charts
 - [Fusion Charts - Main Docs](https://www.fusioncharts.com/)
@@ -40,8 +45,7 @@ Craft a dynamic and responsive site for GitHub user search and data presentation
 ### Auth0
 - [Auth0 - Main Docs](https://auth0.com/)
 - Connections
-  email, linkedln, google
-
+  email, google, linkedln
 - [React SDK Docs](https://auth0.com/docs/libraries/auth0-react)
 - [REACT SDK API Docs](https://auth0.github.io/auth0-react/)
 

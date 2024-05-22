@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { GithubContext } from '../context/context';
-import { ExampleChart, Pie2D, Column2D, Bar2D, Doughnut2D } from './Charts';
+import { Pie2D, Column2D, Bar2D, Doughnut2D } from './Charts';
 
 const Repos = () => {
-  
-  const {repos} = React.useContext(GithubContext);
+  const { repos } = React.useContext(GithubContext);
 
   /* Constructure the languages data */
   let languages = repos.reduce((total, item) => {
@@ -21,16 +20,18 @@ const Repos = () => {
         stars: total[language].stars + stargazers_count,
       }
     } // calculate the number of language
+
     return total;
   }, {});
 
-  /* ------ 1. most used language */
+
+  /* ------ 1. Most used language */
   const mostUsed = Object.values(languages).sort((a,b) => {
     return b.value - a.value;
   })
   .slice(0, 5); // change into array, sort by value and return top languages
-
-  /* ------ 3. most popular per language */
+  
+  /* ------ 3. Most popular per language */
   const mostPopular = Object.values(languages).sort((a,b) => {
     return b.stars - a.stars;
   })
@@ -39,21 +40,24 @@ const Repos = () => {
   })
   .slice(0, 5); // change into array, sort by stars and return top languages
 
+
   /* Constructure the stars, forks data*/
   let {stars, forks} = repos.reduce((total, item) => {
     const { stargazers_count, name, forks } = item;
     total.stars[stargazers_count] = {label: name, value: stargazers_count};
     total.forks[forks] = {label: name, value: forks};
+    
     return total;
   },{
     stars: {}, 
     forks: {},
   })
 
-  /* ------ 2. stars */
+  /* ------ 2. Stars */
   stars = Object.values(stars).slice(-5).reverse();
 
-  /* ------ 4. forks */
+
+  /* ------ 4. Forks */
   forks = Object.values(forks).slice(-5).reverse();
 
 
@@ -68,6 +72,7 @@ const Repos = () => {
     </section>
   );
 };
+
 
 const Wrapper = styled.div`
   display: grid;

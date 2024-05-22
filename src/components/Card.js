@@ -7,6 +7,7 @@ const Card = () => {
 
   const { githubUser } = React.useContext(GithubContext);
   const { 
+    login,
     avatar_url,
     html_url,
     name,
@@ -14,7 +15,6 @@ const Card = () => {
     blog,
     bio,
     location,
-    twitter_username
   } = githubUser;
 
   return (
@@ -23,7 +23,7 @@ const Card = () => {
         <img src={avatar_url} alt={name} />
         <div>
           <h4>{name}</h4>
-          <p>@{twitter_username || 'john doe'}</p>
+          <p>@{login || 'username'}</p>
         </div>
         <a href={html_url}>follow</a>
       </header>
@@ -36,7 +36,7 @@ const Card = () => {
           <MdLocationOn></MdLocationOn> {location || 'earth'}
         </p>
         <p>
-          <a href={`https//:${blog}`}><MdLink></MdLink>{blog}</a>
+          <a href={blog}><MdLink></MdLink>{blog}</a>
         </p>
       </div>
     </Wrapper>

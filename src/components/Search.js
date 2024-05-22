@@ -9,12 +9,12 @@ const Search = () => {
   // get things from global context
   const { requests, error, searchGithubUser, isLoading } = React.useContext(GithubContext);
  
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (user) {
       searchGithubUser(user);
     }
-  }
+  };
 
   return (
     <section className='section'>
@@ -29,23 +29,23 @@ const Search = () => {
             <MdSearch />
             <input 
               type='text'
-              placeholder='enter github user ☕️'
+              placeholder='enter gitHub username ☕️'
               value={user}
-              onChange={(e) => setUser(e.target.value)}
+              onChange={(event) => setUser(event.target.value)}
             />
             {requests > 0 && !isLoading &&
-              <button type='submit' className='btn'>search</button> // when request is 0, donot display button
+              <button type='submit' className='btn'>
+                search
+              </button>  // when request is 0, do not display the button
             }
           </div>
         </form>
-        <h3>
-          requests : {requests}/ 60
-        </h3>
+        <h3>requests : {requests}/ 60</h3>
       </Wrapper>
-
     </section>
   );
 };
+
 
 const Wrapper = styled.div`
   position: relative;

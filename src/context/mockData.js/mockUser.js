@@ -19,16 +19,16 @@ export default {
   "site_admin": false,
   "name": "Ruxin Ma",
   "company": "University of Adelaide",
-  "blog": "www.ruxinma.com",
+  "blog": "https://ruxinma.netlify.app/",
   "location": "Adelaide",
   "email": 'allisonmrx610@gmail.com',
   "hireable": false,
   "bio": 'Happy Coding 😊',
   "twitter_username": 'allison0610',
-  "public_repos": 10,
+  "public_repos": 20,
   "public_gists": 3,
   "followers": 23,
   "following": 56,
   "created_at": "2023-07-25T07:52:04Z",
-  "updated_at": "2024-01-31T05:13:23Z"
+  "updated_at": "2024-03-31T05:13:23Z"
   }
