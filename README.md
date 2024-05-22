@@ -14,14 +14,14 @@ Craft a dynamic and responsive site for GitHub user search and data presentation
 ### Test Cases (search query)
 ```bash
 wizardforcel
-``
+```
 
 ```bash
 KyleAMathews
 ```
 ```bash
 marcysutton
-``
+```
 
 ```bash
 sarah_edo
