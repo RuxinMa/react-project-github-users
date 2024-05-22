@@ -13,13 +13,26 @@ Craft a dynamic and responsive site for GitHub user search and data presentation
 
 ### Test Cases (search query)
 ```bash
-wizardforcel 
+wizardforcel
+``
+
+```bash
 KyleAMathews
+```
+```bash
 marcysutton
+``
+
+```bash
 sarah_edo
+```
+
+```bash
 cassidoo
+```
+
+```bash
 john_smilga
-RuxinMa
 ```
 
 ## Other Info
