@@ -1,7 +1,5 @@
 ## Project Overview
-The project is deployed on netlify:
-
-[Click the link to explore:](https://rm-react-project-github-users.netlify.app/)
+The project is deployed on netlify: [Click the link to explore:](https://rm-react-project-github-users.netlify.app/)
 
 ### Technologies
 JavaScript, **React**, HTML, CSS, Auth0, GitHub API, Fusion Charts
